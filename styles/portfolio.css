@@ -53,3 +53,15 @@ nav ul li{
   cursor: pointer;
   font-size: 20px;
 }
+
+.header{
+  display: flex;
+}
+
+.header-content{
+  width: 585px;
+}
+
+.header-image{
+  width: 585px;
+}
