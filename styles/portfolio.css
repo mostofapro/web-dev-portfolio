@@ -149,7 +149,7 @@ main{
 .skills-container{
   display: flex;
   padding: 30px;
-  gap: 15px;
+  gap: 24px;
 }
 .skill{
   padding: 30px;
@@ -160,4 +160,16 @@ main{
 }
 .skill-description{
   text-align:start;
+}
+
+/* Resume Section Style */
+
+.resume{
+  background-color: #f2f2e6ae;
+  padding: 30px;
+}
+
+.resume-container{
+  display: flex;
+  gap: 20px;
 }
