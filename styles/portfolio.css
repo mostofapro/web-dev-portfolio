@@ -2,7 +2,7 @@
 .open-sans-font {
   font-family: "Open Sans", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: weight;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
@@ -14,12 +14,13 @@
   list-style: none;
   text-decoration: none;
 }
-
+/* Navigation Styles */
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 50px 226px;
+  margin: 0px 226px;
+  padding: 15px;
 }
 
 nav ul {
@@ -40,26 +41,56 @@ nav ul li{
 }
 
 .menu-design{
-  color: rgb(71, 71, 71);
+  color: #474747;
   font-size: 20px;
   font-weight: 400;
 }
-.btn-nav{
+.btn-primary{
   border-radius: 5px;
-  background: rgb(253, 110, 10);
+  background: #fd6e0a;
   color: white;
   padding: 18px 35px;
   font-weight: bold;
   cursor: pointer;
   font-size: 20px;
+  border: 1px solid #fd6e0a;
 }
 
-.header{
+#header{
+  background-color: rgba(245, 245, 220, 0.831);
+  background-image: url(../images/developer.png), url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
+
+/* Banner Content Styles */
+
+.banner-container{
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 38px 0 230px;
 }
 
-.header-content{
+.banner-content{
   width: 585px;
+}
+
+.banner-greeting{
+  color: #626262;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.banner-title{
+  font-size: 70px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.banner-description{
+  color: #757575;
+  margin-bottom: 15px;
 }
 
 .header-image{
