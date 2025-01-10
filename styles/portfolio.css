@@ -13,6 +13,7 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
+  box-sizing: border-box;
 }
 /* Navigation Styles */
 nav {
@@ -57,7 +58,7 @@ nav ul li{
 }
 
 #header{
-  background-color: rgba(245, 245, 220, 0.831);
+  background-color: #f5f5dcd4;
   background-image: url(../images/developer.png), url(../images/header_bg.png);
   background-repeat: no-repeat;
   background-position: top left, bottom right;
@@ -95,4 +96,50 @@ nav ul li{
 
 .header-image{
   width: 585px;
+}
+
+/* Shared Styles */
+
+.section-title{
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.section-description{
+  font-size: 18px;
+  font-weight: 400;
+  color: #757575;
+}
+
+.about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 827px;
+  background-color: #f5f5dcd4;
+  text-align: center;
+}
+.about-item-title{
+  color: #757575;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.about-item-description{
+  color: #757575;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.about-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.about-item{
+  text-align: center;
+  margin-right: 20px;
 }
